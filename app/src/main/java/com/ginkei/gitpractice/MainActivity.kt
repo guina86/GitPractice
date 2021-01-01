@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.textBase.text = getString(R.string.happy_2021)
 
-        oh god layout bacon
+        oh god what is this ?
 
     }
 }
