@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         Log.d(TAG, "onCreate: Experimental")
         Log.d(TAG, "onCreate: Change 4")
         Log.d(TAG, "onCreate: This line will be merged")
+        Log.d(TAG, "onCreate: Hello gitHub")
 
     }
 }
