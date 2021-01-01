@@ -2,7 +2,10 @@ package com.ginkei.gitpractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.ginkei.gitpractice.databinding.ActivityMainBinding
+
+const val TAG = "experimental"
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,7 +18,8 @@ class MainActivity : AppCompatActivity() {
 
         binding.textBase.text = getString(R.string.happy_2021)
 
-        oh god what is this ?
+        println("Local Change")
+        Log.d(TAG, "onCreate: Experimental")
 
     }
 }
