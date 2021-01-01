@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textBase.text = "Happy 2021"
+        binding.textBase.text = getString(R.string.happy_2021)
 
     }
 }
