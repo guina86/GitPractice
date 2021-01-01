@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         println("Local Change")
         Log.d(TAG, "onCreate: Experimental")
-        Log.d(TAG, "onCreate: Change 1")
+        Log.d(TAG, "onCreate: Change 2")
 
     }
 }
